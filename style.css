@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(83, 55, 207);
+    font-family: 'Tenor Sans', sans-serif; /* подключение щрифта */
+    margin: 0; /* обнуляем внешний отступ */
+}
+header {
+    background-color: #161a1d;
+    height: 120px; /* высота элемента */
+    padding: 8px; /*  */
+}
+h1, h2 { /* обращаемся к заголовку 2 го уровня */
+    margin: 0;
+}
+h1 {
+    margin-bottom: 20px; /* внешний отступ снизу */
+}
+header a { /* Стиль для ссылок в шапке */
+    background-color: rgb(83, 55, 207); 
+    text-decoration: none;/* убирает оформление текста */
+    color: white; /* цвет текста */
+    border-radius: 10px; /* скругление углов */
+    padding: 10px; /* внутренний отступ от текста в границе */
+}
+article {
+    margin: 20px 20px 30px 20px; /* внешний отступ сверху и справа и снизу и слева */
+    margin-top: ; /* отступ сверху и тд */
+    box-shadow: -47px -27px 43px 33px rgba(34, 78, 80, 0.35); /* тень */
+}
+
+footer {
+    background-color: indigo;
+}
+footer p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-top: 10px;
+}
+
+
+
+
+
+/* margin: 10px 20px;
+    Внешний отступ: сверху-снизу слева-справа */
+    /* margin: 10px 20px 30px 40px;
+    Внешний отступ: сверху справа снизу слева */
+    /* Отступ сверху */
+    /* margin-top: 10px; */
+    /* Отступ справа */
+    /* margin-right: 40px; */
+    /* Отступ слева */
+    /* margin-left: 50px; */
+    /* Отступ снизу */
+    /* margin-bottom: 60px; */
